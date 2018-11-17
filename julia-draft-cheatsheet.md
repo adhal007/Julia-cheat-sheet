@@ -17,14 +17,14 @@ keywords:
 Getting Started
 ---------------
 
-### 'Variables and Collecions' 
-```
+### `Variables and Collections`
+```yml
 testVar = 2;
 testVar 
 ```
 
 Accessing a variable before assigning => Error
-```
+```yml
 try 
 	somerandomVar
 
@@ -32,7 +32,7 @@ try
 ```
 
 Building Arrays and matrices
-```
+```yml
 x = Int64[]
 
 => Array{Int64,1}
