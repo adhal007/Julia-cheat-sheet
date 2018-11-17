@@ -3,15 +3,15 @@ title: Julia
 category: Julia
 layout: 2017/sheet
 keywords:
-  -Variables and Collections
-  -Primitive Data Types and Operators
-  -Types
-  -Multiple Dispatch
-  -Control Flow
-  -Functions
-  -Scoping
-  -I/O Streams 
-  -Profiling
+  - Variables and Collections
+  - Primitive Data Types and Operators
+  - Types
+  - Multiple Dispatch
+  - Control Flow
+  - Functions
+  - Scoping
+  - I/O Streams 
+  - Profiling
 ---
 
 Getting Started
