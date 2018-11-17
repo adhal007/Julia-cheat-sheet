@@ -25,8 +25,7 @@ testVar
 
 Accessing a variable before assigning => Error
 ```yml
-try 
-	somerandomVar
+try somerandomVar
 
 => ERROR: undefVarError: somerandomVar not defined
 ```
@@ -45,7 +44,7 @@ y = Array{Int64}(undef, 2, 2)
 
 y[1]
 
-=> 140126799036160
+=> : 140126799036160
 
 z = [1 2; 4 5; 7 8]
 
