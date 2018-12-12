@@ -128,3 +128,51 @@ append!(z, a)
   first(c)
   => (1, "e")
   ```
+
+  Builtin Array operations
+  ```yml
+  ArrEmpty = []
+=>0-element Array{Any,1}
+  
+  Arr1D  = [2, 3, 4]
+=>3-element Array{Int64,1}:
+  2
+  3
+  4
+  
+  Arr1D = [2; 3; 4]
+=>3-element Array{Int64,1}:
+  2
+  3
+  4
+  
+  Arr1D[1]
+=>2
+  
+  push!(ArrEmpty, 1)
+=>1-element Array{Any,1}:
+  1
+  
+  append!(ArrEmpty, ArrID)
+=>4-element Array{Any,1}:
+  1
+  2
+  3
+  4
+  
+  pop!(Arr1D)
+=>4
+  
+  Arr1D
+=>2-element Array{Int64,1}:
+  2
+  3
+
+  try
+    Arr1D[0] 
+    Arr1D[end + 1] 
+    catch e
+    println(e)
+  end
+=>BoundsError([2, 3], (0,))
+
